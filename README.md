@@ -35,6 +35,9 @@ subdirectory.
 
 - TORQUE is not endorsed by nor affiliated with Altair.
 
+
+---
+
 # Tracking the main TORQUE development repo
 
 Once you've checked out my repo, we'll need to add a remote branch that points to the original repo we forked from:
