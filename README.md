@@ -42,7 +42,7 @@ subdirectory.
 
 Once you've checked out my repo, we'll need to add a remote branch that points to the original repo we forked from:
 
-`git remote add --track master adaptive https://github.com/adaptivecomputing/torque.git`
+`git remote add --track master adaptive git://github.com/adaptivecomputing/torque.git`
 
 We could replace 'master' with another TORQUE branch if we wanted to track a
 specific release instead of the master branch (e.g., the 4.2-dev head).  I've
