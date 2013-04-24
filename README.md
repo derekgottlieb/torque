@@ -62,4 +62,4 @@ merge the code from the remote repo:
 
 Alternatively, we could combine the fetch/merge using pull:
 
-`git pull adaptive/master`
+`git pull adaptive master`
