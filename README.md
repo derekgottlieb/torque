@@ -34,3 +34,29 @@ subdirectory.
 ## Additional Notes
 
 - TORQUE is not endorsed by nor affiliated with Altair.
+
+# Tracking the main TORQUE development repo
+
+Once you've checked out my repo, we'll need to add a remote branch that points to the original repo we forked from:
+
+`git remote add --track master adaptive https://github.com/adaptivecomputing/torque.git`
+
+We could replace 'master' with another TORQUE branch if we wanted to track a
+specific release instead of the master branch (e.g., the 4.2-dev head).  I've
+opted to name it 'adaptive' to keep track of it, so you should see that listed
+if you type (origin would be my repo):
+
+`git remote`
+
+To fetch all changes from Adaptive's code base:
+
+`git fetch adaptive`
+
+This should create a new remote branch called 'adaptive/master'.  We can then
+merge the code from the remote repo:
+
+`git merge adaptive/master`
+
+Alternatively, we could combine the fetch/merge using pull:
+
+`git pull adaptive/master`
